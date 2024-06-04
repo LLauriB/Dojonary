@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+         <h1>Dojonary</h1>
+         <input type="text" class="search"
+            placeholder="search">
+         <button class="btn" onclick="cambiar(this)">Login</button>
+    </div>
+    <div class="column">
+      <div class="ninja">
+        <div class="noun">
+          <h2>ninja</h2>
+          <h4><em>noun</em></h4>
+          <h4>Plural: <em>ninjas</em></h4>
+          <button class="likes" onclick="messageAlert()">13 likes</button>
+        </div>
+        <div class="information">
+          <p>A practitioner skilled in the</p>
+          <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+        </div>
+      </div>
+          
+      <div class="ninja">
+        <div class="noun">
+          <h2>ninja</h2>
+          <h4><em>noun</em></h4>
+          <h4>Plural: <em>ninjas</em></h4>
+          <button class="likes" onclick="messageAlert()">37 likes</button>
+        </div>
+        <div class="information">
+          <p>A <a href="#">programer </a>who breaks</p>
+          <p>down problems with<a href="#"> zen-</a>like focus</p>
+        </div>
+      </div>
+     </div>
+    <div class="column-2">
+      <div class="dojo">
+        <h3>Dojonary is</h3> 
+        <h3>defined by <strong>YOU</strong></h3>
+        <button class="add" onclick="removerButton(this)">Add Definition</button>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js" defer></script>
+</html>
